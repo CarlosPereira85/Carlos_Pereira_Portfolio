@@ -1,0 +1,886 @@
+.about,
+.home1 {
+  position: relative;
+  line-height: 26px;
+  font-weight: 500;
+}
+.home1 {
+  flex: 1;
+  text-decoration: underline;
+  background: linear-gradient(90deg, #13b0f5 2.6%, #e70faa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about {
+  font-size: var(--buttons-big-size);
+  font-family: var(--buttons-big);
+  color: var(--dark-content1);
+  text-align: center;
+}
+.aboutWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm);
+  background-color: transparent;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.projects {
+  position: relative;
+  line-height: 26px;
+  font-weight: 500;
+}
+.projectsWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.homeInner,
+.homeParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  
+}
+.homeParent {
+  flex: 1;
+  height: 40px;
+  align-items: center;
+  gap: var(--gap-3xl);
+  cursor: pointer;
+}
+.homeInner {
+  align-self: stretch;
+  align-items: flex-start;
+  font-family: var(--buttons-big);
+}
+.vectorIcon,
+.vectorIcon1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon1 {
+  height: 50%;
+  width: 75%;
+  top: 25%;
+  right: 12.5%;
+  bottom: 25%;
+  left: 12.5%;
+}
+.menu {
+  position: relative;
+  width: 96px;
+  height: 96px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+}
+.icon,
+.laptopRemovebgPreview1Icon {
+  position: relative;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.icon {
+  border-radius: 49.29px;
+  width: 98.59px;
+  height: 99.57px;
+  display: none;
+}
+.laptopRemovebgPreview1Icon {
+  width: 590.5px;
+  height: 294px;
+  z-index: 0;
+}
+.hi {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.iBuildThingsForWeb {
+  margin: 0;
+}
+.youHaveTheContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.youHaveTheContainer {
+  margin: 0 !important;
+  position: absolute;
+  top: 61px;
+  left: 187px;
+  font-size: inherit;
+  letter-spacing: -0.35px;
+  line-height: 24.25px;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  width: 216px;
+  z-index: 1;
+}
+.laptopRemovebgPreview1Parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameChild,
+.frameWrapper {
+  position: relative;
+  width: 590.5px;
+  height: 294px;
+  flex-shrink: 0;
+}
+.frameChild {
+  width: 281px;
+  height: 281px;
+}
+.ellipseWrapper,
+.groupParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.ellipseWrapper {
+  flex: 1;
+  background-color: var(--primary-contrast1);
+  height: 301px;
+  overflow: hidden;
+  padding: 34px 39px;
+  box-sizing: border-box;
+}
+.groupParent {
+  margin-top: 100px;
+  height: 427px;
+  flex-shrink: 0;
+  gap: 284px;
+  text-align: left;
+  font-size: 20.09px;
+  color: var(--primary-contrast1);
+}
+.skills1,
+.technologiesIveBeen {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+}
+.technologiesIveBeen {
+  font-size: var(--font-size-2xl);
+  color: var(--dark-content1);
+}
+.skillsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 55px;
+  font-size: 48px;
+  color: var(--color-darkslateblue);
+}
+.vscodeIconsfileTypeHtml {
+  position: relative;
+  width: 74.89px;
+  height: 62.33px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.vscodeIconsfileTypeCss,
+.vscodeIconsfileTypeJsOffi {
+  position: relative;
+  width: 71.88px;
+  height: 61.82px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.vscodeIconsfileTypeJsOffi {
+  width: 77.41px;
+  height: 74.39px;
+}
+.logosreactIcon {
+  width: 71.88px;
+  height: 52.27px;
+  flex-shrink: 0;
+}
+.image1Icon,
+.logosbootstrapIcon,
+.logosreactIcon {
+  position: relative;
+  overflow: hidden;
+}
+.logosbootstrapIcon {
+  width: 70.37px;
+  height: 59.81px;
+  flex-shrink: 0;
+}
+.image1Icon {
+  flex: 1;
+  max-width: 100%;
+  height: 48.76px;
+  object-fit: cover;
+}
+.image1Wrapper {
+  width: 58.81px;
+  height: 56.8px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vscodeIconsfileTypeHtmlParent {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 11.56059741973877px 30.660715103149414px;
+  align-items: center;
+  justify-content: center;
+  gap: 41.72px;
+}
+.vscodeIconsfileTypeTailwin {
+  position: relative;
+  width: 95px;
+  height: 63.33px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.vectorIcon2 {
+  position: relative;
+  width: 73.93px;
+  height: 42.03px;
+  flex-shrink: 0;
+}
+.logossass,
+.logossassWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logossass {
+  width: 74.14px;
+  overflow: hidden;
+}
+.logossassWrapper {
+  width: 89.47px;
+  flex-shrink: 0;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.akarIconsgithubFill,
+.nodejsOriginal1Icon,
+.vscodeIconsfileTypeVscode {
+  position: relative;
+  width: 74.39px;
+  height: 68.86px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.akarIconsgithubFill,
+.nodejsOriginal1Icon {
+  width: 67.35px;
+  height: 56.3px;
+}
+.nodejsOriginal1Icon {
+  width: 84.44px;
+  height: 72.88px;
+}
+.locofyRemovebgPreview1Icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 52.05px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.locofyRemovebgPreview1Wrapper {
+  background-color: var(--primary-contrast1);
+  width: 85.95px;
+  height: 63.83px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 3.973041534423828px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent,
+.vscodeIconsfileTypeTailwinParent {
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+.vscodeIconsfileTypeTailwinParent {
+  align-self: stretch;
+  background-color: var(--color-gray-200);
+  height: 83.32px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 33.91025924682617px 20.83058738708496px;
+  box-sizing: border-box;
+  gap: 34.39px;
+}
+.frameParent {
+  width: 1010px;
+  height: 214.63px;
+  display: none;
+  flex-direction: column;
+  gap: 29.66px;
+}
+.vscodeIconsfileTypeCss1,
+.vscodeIconsfileTypeHtml1 {
+  position: relative;
+  width: 43.33px;
+  height: 36.06px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.vscodeIconsfileTypeCss1 {
+  width: 41.59px;
+  height: 35.77px;
+}
+.logosbootstrapIcon1,
+.logosreactIcon1,
+.vscodeIconsfileTypeJsOffi1 {
+  position: relative;
+  width: 44.79px;
+  height: 43.04px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.logosbootstrapIcon1,
+.logosreactIcon1 {
+  width: 41.59px;
+  height: 30.25px;
+}
+.logosbootstrapIcon1 {
+  width: 40.72px;
+  height: 34.61px;
+}
+.image1Icon1 {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 28.21px;
+  object-fit: cover;
+}
+.image1Container {
+  width: 34.03px;
+  height: 32.86px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-4xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vscodeIconsfileTypeHtmlGroup {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 6.689076900482178px 17.740596771240234px;
+  align-items: center;
+  justify-content: center;
+  gap: 24.14px;
+}
+.vscodeIconsfileTypeTailwin1 {
+  position: relative;
+  width: 54.97px;
+  height: 36.64px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.vectorIcon3 {
+  position: relative;
+  width: 42.78px;
+  height: 24.32px;
+  flex-shrink: 0;
+}
+.logossass1,
+.logossassContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logossass1 {
+  width: 42.9px;
+  overflow: hidden;
+}
+.logossassContainer {
+  width: 51.77px;
+  flex-shrink: 0;
+  padding: var(--padding-4xs);
+  box-sizing: border-box;
+}
+.akarIconsgithubFill1,
+.nodejsOriginal1Icon1,
+.vscodeIconsfileTypeVscode1 {
+  position: relative;
+  width: 43.04px;
+  height: 39.84px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.akarIconsgithubFill1,
+.nodejsOriginal1Icon1 {
+  width: 38.97px;
+  height: 32.57px;
+}
+.nodejsOriginal1Icon1 {
+  width: 48.86px;
+  height: 42.17px;
+}
+.locofyRemovebgPreview1Icon1 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 30.11px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.locofyRemovebgPreview1Container {
+  background-color: var(--primary-contrast1);
+  width: 49.73px;
+  height: 36.94px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 2.298841714859009px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup,
+.vscodeIconsfileTypeTailwinGroup {
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+.vscodeIconsfileTypeTailwinGroup {
+  align-self: stretch;
+  background-color: var(--color-gray-200);
+  height: 48.21px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 19.620813369750977px 12.052786827087402px;
+  box-sizing: border-box;
+  gap: 19.9px;
+}
+.frameGroup {
+  width: 968px;
+  height: 124.18px;
+  display: none;
+  flex-direction: column;
+  gap: 17.16px;
+}
+.vscodeIconsfileTypeCss2,
+.vscodeIconsfileTypeHtml2 {
+  position: relative;
+  width: 149px;
+  height: 124px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.vscodeIconsfileTypeCss2 {
+  width: 143px;
+  height: 123px;
+}
+.logosbootstrapIcon2,
+.logosreactIcon2,
+.vscodeIconsfileTypeJsOffi2 {
+  position: relative;
+  width: 154px;
+  height: 148px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.logosbootstrapIcon2,
+.logosreactIcon2 {
+  width: 143px;
+  height: 104px;
+}
+.logosbootstrapIcon2 {
+  width: 140px;
+  height: 119px;
+}
+.image1Icon2 {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 97px;
+  object-fit: cover;
+}
+.image1Frame {
+  width: 117px;
+  height: 113px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vscodeIconsfileTypeHtmlContainer {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-2xl) 61px;
+  align-items: center;
+  justify-content: center;
+  gap: 83px;
+}
+.vscodeIconsfileTypeTailwin2 {
+  position: relative;
+  width: 189px;
+  height: 126px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.vectorIcon4 {
+  position: relative;
+  width: 147.08px;
+  height: 83.61px;
+  flex-shrink: 0;
+}
+.logossass2,
+.logossassFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logossass2 {
+  width: 147.5px;
+  overflow: hidden;
+}
+.logossassFrame {
+  width: 178px;
+  flex-shrink: 0;
+  padding: var(--padding-sm);
+  box-sizing: border-box;
+}
+.akarIconsgithubFill2,
+.nodejsOriginal1Icon2,
+.vscodeIconsfileTypeVscode2 {
+  position: relative;
+  width: 148px;
+  height: 137px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.akarIconsgithubFill2,
+.nodejsOriginal1Icon2 {
+  width: 134px;
+  height: 112px;
+}
+.nodejsOriginal1Icon2 {
+  width: 168px;
+  height: 145px;
+}
+.locofyRemovebgPreview1Icon2 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 103.55px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.locofyRemovebgPreview1Frame {
+  background-color: var(--primary-contrast1);
+  width: 171px;
+  height: 127px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 7.9044318199157715px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer,
+.vscodeIconsfileTypeTailwinContainer {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vscodeIconsfileTypeTailwinContainer {
+  background-color: var(--color-gray-200);
+  height: 165.77px;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 67.46501922607422px 41.44279861450195px;
+  box-sizing: border-box;
+  gap: 68.43px;
+}
+.frameContainer {
+  height: 427px;
+  flex-direction: column;
+  gap: 59px;
+}
+.thingsIveBuilt {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-2xl);
+  line-height: 26px;
+}
+.weather1Icon {
+  position: relative;
+  width: 676px;
+  height: 312.78px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.projectDevelopedWith,
+.tr {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+}
+.tr {
+  font-weight: 500;
+  color: var(--color-black);
+}
+.projectDevelopedWith {
+  font-size: var(--font-size-base);
+  font-weight: 300;
+}
+.reactApiContextapi {
+  font-size: var(--font-size-3xs);
+  font-weight: 300;
+}
+.techStackContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  font-size: var(--font-size-2xs);
+}
+.trParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.groupIcon {
+  position: relative;
+  width: 19.74px;
+  height: 19.74px;
+  flex-shrink: 0;
+}
+.livePreview {
+  position: relative;
+  text-decoration: underline;
+  line-height: 20.58px;
+}
+.groupGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+  cursor: pointer;
+}
+.vectorIcon5 {
+  position: relative;
+  width: 27.85px;
+  height: 24.49px;
+  flex-shrink: 0;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-2xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent2 {
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.frameParent1,
+.frameParent2,
+.frameWrapper1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+.frameParent1 {
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-lg);
+}
+.frameWrapper1 {
+  padding: var(--padding-sm);
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-6xs);
+  color: var(--color-black);
+}
+.frameDiv,
+.weather1Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frameDiv {
+  flex: 1;
+  border-radius: var(--br-md);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+  padding: var(--padding-2xl) var(--padding-3xl) var(--padding-2xl) 0;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.weather1Parent {
+  align-self: stretch;
+  justify-content: center;
+  font-size: var(--font-size-xl);
+}
+.carlospereira {
+  background: linear-gradient(90deg, #13b0f5 2.6%, #e70faa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.beSureToContainer {
+  position: relative;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.beSureToTakeALoWrapper,
+.home {
+  display: flex;
+  align-items: center;
+}
+.beSureToTakeALoWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-sm);
+  justify-content: center;
+  font-size: var(--font-size-base);
+}
+.home {
+  position: relative;
+  background-color: var(--primary-contrast1);
+  width: 100%;
+  height: 4923px;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 24px 0 var(--padding-3xl);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: 142px;
+  text-align: center;
+  font-size: var(--buttons-big-size);
+  color: var(--dark-content1);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 960px) {
+  .homeInner {
+    display: none;
+  }
+  .icon,
+  .menu {
+    display: flex;
+  }
+  .ellipseWrapper {
+    display: none;
+  }
+  .frameParent {
+    display: flex;
+  }
+  .frameContainer,
+  .frameGroup {
+    display: none;
+  }
+  .frameDiv {
+    flex: unset;
+    align-self: stretch;
+  }
+  .weather1Parent {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 420px) {
+  .homeInner {
+    display: none;
+  }
+  .menu {
+    display: flex;
+  }
+  .ellipseWrapper {
+    display: none;
+    flex: unset;
+    align-self: stretch;
+  }
+  .groupParent {
+    flex-direction: column;
+    gap: var(--gap-xs);
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 0;
+    box-sizing: border-box;
+  }
+  .frameParent {
+    display: none;
+  }
+  .frameGroup {
+    display: flex;
+  }
+  .frameDiv,
+  .frameWrapper1,
+  .trParent {
+    flex: unset;
+    align-self: stretch;
+  }
+  .frameDiv {
+    flex-direction: column;
+  }
+  .weather1Parent {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

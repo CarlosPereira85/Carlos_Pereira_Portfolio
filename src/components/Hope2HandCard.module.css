@@ -1,0 +1,145 @@
+.hope1Icon {
+  position: relative;
+  width: 668px;
+  height: 343px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.hope2hand,
+.hope2handWasThe {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+}
+.hope2hand {
+  font-weight: 500;
+  color: var(--color-black);
+}
+.hope2handWasThe {
+  font-size: var(--font-size-base);
+  font-weight: 300;
+}
+.reactJavascript {
+  font-size: var(--font-size-3xs);
+  font-weight: 300;
+}
+.techStackContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  font-size: var(--font-size-2xs);
+}
+.hope2handParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.groupIcon {
+  position: relative;
+  width: 19.74px;
+  height: 19.74px;
+  flex-shrink: 0;
+}
+.livePreview {
+  position: relative;
+  text-decoration: underline;
+  line-height: 20.58px;
+}
+.groupParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+  cursor: pointer;
+}
+.vectorIcon {
+  position: relative;
+  width: 27.85px;
+  height: 24.49px;
+  flex-shrink: 0;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-2xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.frameContainer,
+.frameGroup,
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+.frameParent {
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-lg);
+}
+.frameContainer {
+  padding: var(--padding-sm);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper,
+.hope1Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frameWrapper {
+  flex: 1;
+  border-radius: var(--br-md);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+  padding: var(--padding-2xl) var(--padding-3xl);
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-6xs);
+  color: var(--color-black);
+}
+.hope1Parent {
+  align-self: stretch;
+  justify-content: center;
+  gap: var(--gap-2xs);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--dark-content1);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 960px) {
+  .frameWrapper,
+  .hope2handParent {
+    flex: unset;
+    align-self: stretch;
+  }
+  .hope1Parent {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 420px) {
+  .frameContainer,
+  .frameWrapper,
+  .hope2handParent {
+    flex: unset;
+    align-self: stretch;
+  }
+  .frameWrapper {
+    flex-direction: column;
+  }
+  .hope1Parent {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

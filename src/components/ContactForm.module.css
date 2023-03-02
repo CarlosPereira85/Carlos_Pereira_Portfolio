@@ -1,0 +1,189 @@
+.contactMe {
+  position: relative;
+  line-height: 26.44px;
+  font-weight: 600;
+}
+.contactMe,
+.email,
+.name {
+  align-self: stretch;
+}
+.name {
+  position: relative;
+}
+.email {
+  border: 0;
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-4xs);
+  background-color: var(--color-whitesmoke-100);
+  border-radius: var(--br-md);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md) var(--padding-xs);
+  align-items: center;
+  justify-content: flex-start;
+}
+.email:focus {
+  outline: 0;
+}
+.email1,
+.nameParent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.nameParent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+}
+.email1 {
+  border: 0;
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-4xs);
+  background-color: var(--color-whitesmoke-100);
+  border-radius: var(--br-md);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-md) var(--padding-xs);
+  align-items: center;
+  outline: 0;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-sm);
+}
+.email2,
+.frameGroup,
+.messageParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.email2 {
+  border: 0;
+  background-color: var(--color-whitesmoke-100);
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-4xs);
+  align-self: stretch;
+  border-radius: var(--br-md);
+  height: 188.96px;
+  flex-shrink: 0;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-md) var(--padding-xs);
+  box-sizing: border-box;
+  outline: 0;
+}
+.messageParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.button,
+.frameParent {
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-roboto);
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-sm);
+  color: var(--color-dimgray-200);
+}
+.button {
+  position: relative;
+  letter-spacing: 0.36px;
+  color: var(--primary-contrast1);
+  text-align: center;
+}
+.searchFlightsButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-lg);
+  background-color: var(--dark-content1);
+  flex: 1;
+  border-radius: var(--br-sm);
+  box-shadow: 0 20px 20px rgba(170, 170, 170, 0.25);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+.searchFlightsButton:hover {
+  background-color: var(--color-darkslategray-100);
+}
+.div {
+  position: relative;
+}
+.contactMeParent,
+.searchFlightsButtonParent,
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wrapper {
+  width: 183px;
+  flex-shrink: 0;
+  padding: var(--padding-sm);
+  box-sizing: border-box;
+}
+.contactMeParent,
+.searchFlightsButtonParent {
+  align-self: stretch;
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--font-size-5xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.contactMeParent {
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 960px) {
+  .contactMe {
+    font-size: var(--font-size-base);
+  }
+  .name {
+    font-size: var(--font-size-3xs);
+  }
+  .frameGroup,
+  .messageParent {
+    flex: unset;
+    align-self: stretch;
+  }
+  .frameParent {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .searchFlightsButton {
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 420px) {
+  .frameGroup,
+  .messageParent {
+    flex: unset;
+    align-self: stretch;
+  }
+  .frameParent {
+    flex-direction: column;
+  }
+  .searchFlightsButton {
+    width: 100% !important;
+  }
+}

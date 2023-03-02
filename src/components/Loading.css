@@ -1,0 +1,58 @@
+body {
+    padding: 10em 0;
+    background: linear-gradient(120deg, #7bc6cc, #be93c5);
+  }
+  h1 {
+    position: relative;
+    margin: 0;
+    color: #fff;
+    font-size: 64px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+  }
+  h2 {
+    margin: 5em 0 1em;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+  
+  
+  
+  /* common */
+  .loading {
+    font-size: 84px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-align: center;
+  }
+    span {
+      display: inline-block;
+      margin: 0 -.05em;
+    }
+  
+  
+  /* code #1 */
+  .loading01 
+    span {
+      animation: loading01 1.4s infinite alternate;
+      @for $i from 0 through 6 {
+        &:nth-child(#{$i+1}) {
+          animation-delay: #{$i*.1}s;
+        }
+      }
+    
+  }
+  @keyframes loading01 {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  

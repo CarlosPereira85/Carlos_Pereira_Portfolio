@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --buttons-big: "DM Sans";
+  --font-inter: Inter;
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-6xs: 12.66px;
+  --font-size-5xs: 12px;
+  --font-size-4xs: 12.44px;
+  --font-size-3xs: 14px;
+  --font-size-2xs: 16px;
+  --font-size-xs: 16.52px;
+  --font-size-sm: 17.11px;
+  --font-size-base: 18px;
+  --buttons-big-size: 20px;
+  --font-size-xl: 28px;
+  --font-size-2xl: 32px;
+
+  /* Colors */
+  --primary-contrast1: #fff;
+  --dark-content1: #666;
+  --color-dimgray-200: #636363;
+  --color-black: #000;
+  --color-gray-100: rgba(255, 255, 255, 0.02);
+  --color-gray-200: rgba(255, 255, 255, 0);
+  --color-darkslateblue: #42446e;
+  --color-darkslategray-100: #1e5b6f;
+  --color-darkslategray-200: #434343;
+  --color-whitesmoke-100: #f8f8f8;
+
+  /* Gaps */
+  --gap-3xs: 4.67px;
+  --gap-2xs: 5px;
+  --gap-xs: 13px;
+  --gap-sm: 14px;
+  --gap-md: 16.29px;
+  --gap-lg: 19.69px;
+  --gap-xl: 20px;
+  --gap-2xl: 39px;
+  --gap-3xl: 73px;
+
+  /* Paddings */
+  --padding-4xs: 2.908294677734375px;
+  --padding-3xs: 5.026346683502197px;
+  --padding-2xs: 6.789405822753906px;
+  --padding-xs: 9.331536293029785px;
+  --padding-sm: 10px;
+  --padding-md: 12.442049026489258px;
+  --padding-lg: 13.997304916381836px;
+  --padding-xl: 21.773584365844727px;
+  --padding-2xl: 23px;
+  --padding-3xl: 26px;
+
+  /* border radiuses */
+  --br-sm: 3.11px;
+  --br-md: 20px;
+}

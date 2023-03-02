@@ -1,0 +1,148 @@
+.chatgpt1Icon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 264.89px;
+  object-fit: cover;
+}
+.chatgpt,
+.thisProjectWas {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+}
+.chatgpt {
+  font-weight: 500;
+  color: var(--color-black);
+}
+.thisProjectWas {
+  font-size: var(--font-size-base);
+  font-weight: 300;
+}
+.reactOpenai {
+  font-size: var(--font-size-3xs);
+  font-weight: 300;
+}
+.techStackContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  font-size: var(--font-size-2xs);
+}
+.chatgptParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.groupIcon {
+  position: relative;
+  width: 19.74px;
+  height: 19.74px;
+  flex-shrink: 0;
+}
+.livePreview {
+  position: relative;
+  text-decoration: underline;
+  line-height: 20.58px;
+}
+.groupParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+  cursor: pointer;
+}
+.vectorIcon {
+  position: relative;
+  width: 27.85px;
+  height: 24.49px;
+  flex-shrink: 0;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-2xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.frameContainer,
+.frameGroup,
+.frameWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+.frameGroup {
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-lg);
+}
+.frameWrapper {
+  padding: var(--padding-sm);
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-6xs);
+  color: var(--color-black);
+}
+.chatgpt1Parent,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frameParent {
+  flex: 1;
+  border-radius: var(--br-md);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+  padding: var(--padding-2xl) var(--padding-3xl);
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.chatgpt1Parent {
+  align-self: stretch;
+  justify-content: center;
+  gap: var(--gap-2xs);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--dark-content1);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 960px) {
+  .chatgpt1Icon,
+  .frameParent {
+    flex: unset;
+    align-self: stretch;
+  }
+  .chatgpt1Parent {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 420px) {
+  .chatgpt1Icon,
+  .chatgptParent,
+  .frameParent,
+  .frameWrapper {
+    flex: unset;
+    align-self: stretch;
+  }
+  .frameParent {
+    flex-direction: column;
+  }
+  .chatgpt1Parent {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

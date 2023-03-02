@@ -1,0 +1,21 @@
+.contact {
+  position: relative;
+  line-height: 26px;
+  font-weight: 500;
+  background: linear-gradient(90deg, #13b0f5 2.6%, #e70faa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.contactParent {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--buttons-big-size);
+  font-family: var(--buttons-big);
+}

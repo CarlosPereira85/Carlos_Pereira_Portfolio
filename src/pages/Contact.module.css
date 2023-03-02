@@ -1,0 +1,122 @@
+.contact1 {
+  flex: 1;
+  position: relative;
+  line-height: 21.47px;
+  font-weight: 500;
+  background: linear-gradient(90deg, #13b0f5 2.6%, #e70faa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 0;
+}
+.entypoSociallinkedinWithCiIcon,
+.vectorIcon {
+  position: relative;
+  width: 24.78px;
+  height: 24.17px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.entypoSociallinkedinWithCiIcon {
+  height: 24.78px;
+  overflow: hidden;
+}
+.vectorParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16.52px;
+  z-index: 1;
+}
+.atomIconLeft {
+  position: relative;
+  width: 19.82px;
+  height: 19.82px;
+  flex-shrink: 0;
+}
+.left {
+  margin: 0 !important;
+  position: absolute;
+  top: 40.66px;
+  left: 100.76px;
+  background-color: rgba(244, 244, 244, 0.02);
+  display: flex;
+  flex-direction: row;
+  padding: 9.910587310791016px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  cursor: pointer;
+  z-index: 2;
+}
+.contactParent,
+.responsiveFormComponent {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contactParent {
+  height: 120.58px;
+  flex-shrink: 0;
+  flex-direction: row;
+  position: relative;
+  gap: 183.35px;
+}
+.responsiveFormComponent {
+  border-radius: 9.33px;
+  background-color: var(--primary-contrast1);
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.03);
+  flex-direction: column;
+  padding: var(--padding-xl) 317px var(--padding-xl) 273px;
+  gap: 13.22px;
+}
+.vectorIcon1 {
+  position: relative;
+  width: 1440px;
+  height: 267px;
+  flex-shrink: 0;
+}
+.desktop5 {
+  align-self: stretch;
+  background-color: var(--primary-contrast1);
+  height: 272px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -1px;
+}
+.contact,
+.responsiveFormComponentParent {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.responsiveFormComponentParent {
+  background-color: var(--primary-contrast1);
+  height: 756px;
+  flex-shrink: 0;
+  padding: var(--padding-sm) 0 0;
+  align-items: center;
+}
+.contact {
+  position: relative;
+  width: 100%;
+  padding: var(--padding-sm);
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  font-family: var(--buttons-big);
+}
+@media screen and (max-width: 960px) {
+  .responsiveFormComponent {
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    box-sizing: border-box;
+  }
+}
